@@ -1,4 +1,4 @@
-# openapi_client.model.exchange.Exchange
+# trading212_api_client.model.exchange.Exchange
 
 ## Model Type Info
 Input Type | Accessed Type | Description | Notes

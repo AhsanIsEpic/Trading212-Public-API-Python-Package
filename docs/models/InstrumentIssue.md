@@ -1,4 +1,4 @@
-# openapi_client.model.instrument_issue.InstrumentIssue
+# trading212_api_client.model.instrument_issue.InstrumentIssue
 
 ## Model Type Info
 Input Type | Accessed Type | Description | Notes

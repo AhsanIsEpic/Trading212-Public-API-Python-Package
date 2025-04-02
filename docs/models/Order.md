@@ -1,4 +1,4 @@
-# openapi_client.model.order.Order
+# trading212_api_client.model.order.Order
 
 ## Model Type Info
 Input Type | Accessed Type | Description | Notes

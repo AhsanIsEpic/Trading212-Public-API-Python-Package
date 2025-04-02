@@ -1,4 +1,4 @@
-# openapi_client.model.tradeable_instrument.TradeableInstrument
+# trading212_api_client.model.tradeable_instrument.TradeableInstrument
 
 ## Model Type Info
 Input Type | Accessed Type | Description | Notes

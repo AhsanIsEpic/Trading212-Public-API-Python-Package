@@ -1,4 +1,4 @@
-# openapi_client.model.paginated_response_history_dividend_item.PaginatedResponseHistoryDividendItem
+# trading212_api_client.model.paginated_response_history_dividend_item.PaginatedResponseHistoryDividendItem
 
 ## Model Type Info
 Input Type | Accessed Type | Description | Notes

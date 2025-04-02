@@ -1,5 +1,5 @@
 <a id="__pageTop"></a>
-# openapi_client.apis.tags.instruments_metadata_api.InstrumentsMetadataApi
+# trading212_api_client.apis.tags.instruments_metadata_api.InstrumentsMetadataApi
 
 All URIs are relative to *https://demo.trading212.com*
 
@@ -20,13 +20,13 @@ Fetch all exchanges and their corresponding working schedules that your account 
 
 * Api Key Authentication (apiKeyHeader):
 ```python
-import openapi_client
-from openapi_client.apis.tags import instruments_metadata_api
-from openapi_client.model.exchange import Exchange
+import trading212_api_client
+from trading212_api_client.apis.tags import instruments_metadata_api
+from trading212_api_client.model.exchange import Exchange
 from pprint import pprint
 # Defining the host is optional and defaults to https://demo.trading212.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = trading212_api_client.Configuration(
     host = "https://demo.trading212.com"
 )
 
@@ -41,7 +41,7 @@ configuration.api_key['apiKeyHeader'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['apiKeyHeader'] = 'Bearer'
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with trading212_api_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
     api_instance = instruments_metadata_api.InstrumentsMetadataApi(api_client)
 
@@ -50,7 +50,7 @@ with openapi_client.ApiClient(configuration) as api_client:
         # Exchange List
         api_response = api_instance.exchanges()
         pprint(api_response)
-    except openapi_client.ApiException as e:
+    except trading212_api_client.ApiException as e:
         print("Exception when calling InstrumentsMetadataApi->exchanges: %s\n" % e)
 ```
 ### Parameters
@@ -132,13 +132,13 @@ Fetch all instruments that your account has access to
 
 * Api Key Authentication (apiKeyHeader):
 ```python
-import openapi_client
-from openapi_client.apis.tags import instruments_metadata_api
-from openapi_client.model.tradeable_instrument import TradeableInstrument
+import trading212_api_client
+from trading212_api_client.apis.tags import instruments_metadata_api
+from trading212_api_client.model.tradeable_instrument import TradeableInstrument
 from pprint import pprint
 # Defining the host is optional and defaults to https://demo.trading212.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = trading212_api_client.Configuration(
     host = "https://demo.trading212.com"
 )
 
@@ -153,7 +153,7 @@ configuration.api_key['apiKeyHeader'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['apiKeyHeader'] = 'Bearer'
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with trading212_api_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
     api_instance = instruments_metadata_api.InstrumentsMetadataApi(api_client)
 
@@ -162,7 +162,7 @@ with openapi_client.ApiClient(configuration) as api_client:
         # Instrument List
         api_response = api_instance.instruments()
         pprint(api_response)
-    except openapi_client.ApiException as e:
+    except trading212_api_client.ApiException as e:
         print("Exception when calling InstrumentsMetadataApi->instruments: %s\n" % e)
 ```
 ### Parameters

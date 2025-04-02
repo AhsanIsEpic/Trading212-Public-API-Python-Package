@@ -1,4 +1,4 @@
-# openapi_client.model.account_bucket_instrument_result.AccountBucketInstrumentResult
+# trading212_api_client.model.account_bucket_instrument_result.AccountBucketInstrumentResult
 
 ## Model Type Info
 Input Type | Accessed Type | Description | Notes

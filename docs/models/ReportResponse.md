@@ -1,4 +1,4 @@
-# openapi_client.model.report_response.ReportResponse
+# trading212_api_client.model.report_response.ReportResponse
 
 ## Model Type Info
 Input Type | Accessed Type | Description | Notes

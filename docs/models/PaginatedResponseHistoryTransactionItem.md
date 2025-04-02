@@ -1,4 +1,4 @@
-# openapi_client.model.paginated_response_history_transaction_item.PaginatedResponseHistoryTransactionItem
+# trading212_api_client.model.paginated_response_history_transaction_item.PaginatedResponseHistoryTransactionItem
 
 ## Model Type Info
 Input Type | Accessed Type | Description | Notes

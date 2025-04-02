@@ -1,4 +1,4 @@
-# openapi_client.model.working_schedule.WorkingSchedule
+# trading212_api_client.model.working_schedule.WorkingSchedule
 
 ## Model Type Info
 Input Type | Accessed Type | Description | Notes

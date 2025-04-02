@@ -1,4 +1,4 @@
-# openapi_client.model.public_report_request.PublicReportRequest
+# trading212_api_client.model.public_report_request.PublicReportRequest
 
 ## Model Type Info
 Input Type | Accessed Type | Description | Notes

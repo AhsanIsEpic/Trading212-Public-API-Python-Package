@@ -1,4 +1,4 @@
-# openapi_client.model.tax.Tax
+# trading212_api_client.model.tax.Tax
 
 ## Model Type Info
 Input Type | Accessed Type | Description | Notes

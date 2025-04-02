@@ -1,4 +1,4 @@
-# openapi_client.model.duplicate_bucket_request.DuplicateBucketRequest
+# trading212_api_client.model.duplicate_bucket_request.DuplicateBucketRequest
 
 ## Model Type Info
 Input Type | Accessed Type | Description | Notes

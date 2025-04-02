@@ -1,4 +1,4 @@
-# openapi_client.model.history_dividend_item.HistoryDividendItem
+# trading212_api_client.model.history_dividend_item.HistoryDividendItem
 
 ## Model Type Info
 Input Type | Accessed Type | Description | Notes

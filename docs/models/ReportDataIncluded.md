@@ -1,4 +1,4 @@
-# openapi_client.model.report_data_included.ReportDataIncluded
+# trading212_api_client.model.report_data_included.ReportDataIncluded
 
 ## Model Type Info
 Input Type | Accessed Type | Description | Notes

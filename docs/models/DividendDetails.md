@@ -1,4 +1,4 @@
-# openapi_client.model.dividend_details.DividendDetails
+# trading212_api_client.model.dividend_details.DividendDetails
 
 ## Model Type Info
 Input Type | Accessed Type | Description | Notes

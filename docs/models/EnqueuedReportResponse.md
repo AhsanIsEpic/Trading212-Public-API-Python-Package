@@ -1,4 +1,4 @@
-# openapi_client.model.enqueued_report_response.EnqueuedReportResponse
+# trading212_api_client.model.enqueued_report_response.EnqueuedReportResponse
 
 ## Model Type Info
 Input Type | Accessed Type | Description | Notes

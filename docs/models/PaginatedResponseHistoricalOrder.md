@@ -1,4 +1,4 @@
-# openapi_client.model.paginated_response_historical_order.PaginatedResponseHistoricalOrder
+# trading212_api_client.model.paginated_response_historical_order.PaginatedResponseHistoricalOrder
 
 ## Model Type Info
 Input Type | Accessed Type | Description | Notes

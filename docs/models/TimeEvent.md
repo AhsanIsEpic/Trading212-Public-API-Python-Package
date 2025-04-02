@@ -1,4 +1,4 @@
-# openapi_client.model.time_event.TimeEvent
+# trading212_api_client.model.time_event.TimeEvent
 
 ## Model Type Info
 Input Type | Accessed Type | Description | Notes

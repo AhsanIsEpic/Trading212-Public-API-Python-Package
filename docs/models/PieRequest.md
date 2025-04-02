@@ -1,4 +1,4 @@
-# openapi_client.model.pie_request.PieRequest
+# trading212_api_client.model.pie_request.PieRequest
 
 ## Model Type Info
 Input Type | Accessed Type | Description | Notes

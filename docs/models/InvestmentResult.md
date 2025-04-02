@@ -1,4 +1,4 @@
-# openapi_client.model.investment_result.InvestmentResult
+# trading212_api_client.model.investment_result.InvestmentResult
 
 ## Model Type Info
 Input Type | Accessed Type | Description | Notes

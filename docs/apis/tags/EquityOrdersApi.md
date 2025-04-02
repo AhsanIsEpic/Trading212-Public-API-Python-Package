@@ -1,5 +1,5 @@
 <a id="__pageTop"></a>
-# openapi_client.apis.tags.equity_orders_api.EquityOrdersApi
+# trading212_api_client.apis.tags.equity_orders_api.EquityOrdersApi
 
 All URIs are relative to *https://demo.trading212.com*
 
@@ -23,12 +23,12 @@ Cancel by ID
 
 * Api Key Authentication (apiKeyHeader):
 ```python
-import openapi_client
-from openapi_client.apis.tags import equity_orders_api
+import trading212_api_client
+from trading212_api_client.apis.tags import equity_orders_api
 from pprint import pprint
 # Defining the host is optional and defaults to https://demo.trading212.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = trading212_api_client.Configuration(
     host = "https://demo.trading212.com"
 )
 
@@ -43,7 +43,7 @@ configuration.api_key['apiKeyHeader'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['apiKeyHeader'] = 'Bearer'
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with trading212_api_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
     api_instance = equity_orders_api.EquityOrdersApi(api_client)
 
@@ -57,7 +57,7 @@ with openapi_client.ApiClient(configuration) as api_client:
             path_params=path_params,
         )
         pprint(api_response)
-    except openapi_client.ApiException as e:
+    except trading212_api_client.ApiException as e:
         print("Exception when calling EquityOrdersApi->cancel_order: %s\n" % e)
 ```
 ### Parameters
@@ -169,13 +169,13 @@ Fetch by ID
 
 * Api Key Authentication (apiKeyHeader):
 ```python
-import openapi_client
-from openapi_client.apis.tags import equity_orders_api
-from openapi_client.model.order import Order
+import trading212_api_client
+from trading212_api_client.apis.tags import equity_orders_api
+from trading212_api_client.model.order import Order
 from pprint import pprint
 # Defining the host is optional and defaults to https://demo.trading212.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = trading212_api_client.Configuration(
     host = "https://demo.trading212.com"
 )
 
@@ -190,7 +190,7 @@ configuration.api_key['apiKeyHeader'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['apiKeyHeader'] = 'Bearer'
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with trading212_api_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
     api_instance = equity_orders_api.EquityOrdersApi(api_client)
 
@@ -204,7 +204,7 @@ with openapi_client.ApiClient(configuration) as api_client:
             path_params=path_params,
         )
         pprint(api_response)
-    except openapi_client.ApiException as e:
+    except trading212_api_client.ApiException as e:
         print("Exception when calling EquityOrdersApi->order_by_id: %s\n" % e)
 ```
 ### Parameters
@@ -307,13 +307,13 @@ Fetch all
 
 * Api Key Authentication (apiKeyHeader):
 ```python
-import openapi_client
-from openapi_client.apis.tags import equity_orders_api
-from openapi_client.model.order import Order
+import trading212_api_client
+from trading212_api_client.apis.tags import equity_orders_api
+from trading212_api_client.model.order import Order
 from pprint import pprint
 # Defining the host is optional and defaults to https://demo.trading212.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = trading212_api_client.Configuration(
     host = "https://demo.trading212.com"
 )
 
@@ -328,7 +328,7 @@ configuration.api_key['apiKeyHeader'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['apiKeyHeader'] = 'Bearer'
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with trading212_api_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
     api_instance = equity_orders_api.EquityOrdersApi(api_client)
 
@@ -337,7 +337,7 @@ with openapi_client.ApiClient(configuration) as api_client:
         # Fetch all
         api_response = api_instance.orders()
         pprint(api_response)
-    except openapi_client.ApiException as e:
+    except trading212_api_client.ApiException as e:
         print("Exception when calling EquityOrdersApi->orders: %s\n" % e)
 ```
 ### Parameters
@@ -417,15 +417,15 @@ Place Limit order
 
 * Api Key Authentication (apiKeyHeader):
 ```python
-import openapi_client
-from openapi_client.apis.tags import equity_orders_api
-from openapi_client.model.limit_request import LimitRequest
-from openapi_client.model.order import Order
-from openapi_client.model.place_order_error import PlaceOrderError
+import trading212_api_client
+from trading212_api_client.apis.tags import equity_orders_api
+from trading212_api_client.model.limit_request import LimitRequest
+from trading212_api_client.model.place_order_error import PlaceOrderError
+from trading212_api_client.model.order import Order
 from pprint import pprint
 # Defining the host is optional and defaults to https://demo.trading212.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = trading212_api_client.Configuration(
     host = "https://demo.trading212.com"
 )
 
@@ -440,7 +440,7 @@ configuration.api_key['apiKeyHeader'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['apiKeyHeader'] = 'Bearer'
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with trading212_api_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
     api_instance = equity_orders_api.EquityOrdersApi(api_client)
 
@@ -457,7 +457,7 @@ with openapi_client.ApiClient(configuration) as api_client:
             body=body,
         )
         pprint(api_response)
-    except openapi_client.ApiException as e:
+    except trading212_api_client.ApiException as e:
         print("Exception when calling EquityOrdersApi->place_limit_order: %s\n" % e)
 ```
 ### Parameters
@@ -561,15 +561,15 @@ Place Market order
 
 * Api Key Authentication (apiKeyHeader):
 ```python
-import openapi_client
-from openapi_client.apis.tags import equity_orders_api
-from openapi_client.model.market_request import MarketRequest
-from openapi_client.model.order import Order
-from openapi_client.model.place_order_error import PlaceOrderError
+import trading212_api_client
+from trading212_api_client.apis.tags import equity_orders_api
+from trading212_api_client.model.place_order_error import PlaceOrderError
+from trading212_api_client.model.order import Order
+from trading212_api_client.model.market_request import MarketRequest
 from pprint import pprint
 # Defining the host is optional and defaults to https://demo.trading212.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = trading212_api_client.Configuration(
     host = "https://demo.trading212.com"
 )
 
@@ -584,7 +584,7 @@ configuration.api_key['apiKeyHeader'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['apiKeyHeader'] = 'Bearer'
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with trading212_api_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
     api_instance = equity_orders_api.EquityOrdersApi(api_client)
 
@@ -599,7 +599,7 @@ with openapi_client.ApiClient(configuration) as api_client:
             body=body,
         )
         pprint(api_response)
-    except openapi_client.ApiException as e:
+    except trading212_api_client.ApiException as e:
         print("Exception when calling EquityOrdersApi->place_market_order: %s\n" % e)
 ```
 ### Parameters
@@ -703,15 +703,15 @@ Place StopLimit order
 
 * Api Key Authentication (apiKeyHeader):
 ```python
-import openapi_client
-from openapi_client.apis.tags import equity_orders_api
-from openapi_client.model.stop_limit_request import StopLimitRequest
-from openapi_client.model.order import Order
-from openapi_client.model.place_order_error import PlaceOrderError
+import trading212_api_client
+from trading212_api_client.apis.tags import equity_orders_api
+from trading212_api_client.model.place_order_error import PlaceOrderError
+from trading212_api_client.model.stop_limit_request import StopLimitRequest
+from trading212_api_client.model.order import Order
 from pprint import pprint
 # Defining the host is optional and defaults to https://demo.trading212.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = trading212_api_client.Configuration(
     host = "https://demo.trading212.com"
 )
 
@@ -726,7 +726,7 @@ configuration.api_key['apiKeyHeader'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['apiKeyHeader'] = 'Bearer'
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with trading212_api_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
     api_instance = equity_orders_api.EquityOrdersApi(api_client)
 
@@ -744,7 +744,7 @@ with openapi_client.ApiClient(configuration) as api_client:
             body=body,
         )
         pprint(api_response)
-    except openapi_client.ApiException as e:
+    except trading212_api_client.ApiException as e:
         print("Exception when calling EquityOrdersApi->place_stop_order: %s\n" % e)
 ```
 ### Parameters
@@ -848,15 +848,15 @@ Place Stop order
 
 * Api Key Authentication (apiKeyHeader):
 ```python
-import openapi_client
-from openapi_client.apis.tags import equity_orders_api
-from openapi_client.model.stop_request import StopRequest
-from openapi_client.model.order import Order
-from openapi_client.model.place_order_error import PlaceOrderError
+import trading212_api_client
+from trading212_api_client.apis.tags import equity_orders_api
+from trading212_api_client.model.stop_request import StopRequest
+from trading212_api_client.model.place_order_error import PlaceOrderError
+from trading212_api_client.model.order import Order
 from pprint import pprint
 # Defining the host is optional and defaults to https://demo.trading212.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = trading212_api_client.Configuration(
     host = "https://demo.trading212.com"
 )
 
@@ -871,7 +871,7 @@ configuration.api_key['apiKeyHeader'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['apiKeyHeader'] = 'Bearer'
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with trading212_api_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
     api_instance = equity_orders_api.EquityOrdersApi(api_client)
 
@@ -888,7 +888,7 @@ with openapi_client.ApiClient(configuration) as api_client:
             body=body,
         )
         pprint(api_response)
-    except openapi_client.ApiException as e:
+    except trading212_api_client.ApiException as e:
         print("Exception when calling EquityOrdersApi->place_stop_order1: %s\n" % e)
 ```
 ### Parameters

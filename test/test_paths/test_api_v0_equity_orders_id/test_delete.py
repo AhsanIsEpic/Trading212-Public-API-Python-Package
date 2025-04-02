@@ -11,9 +11,9 @@ from unittest.mock import patch
 
 import urllib3
 
-import openapi_client
-from openapi_client.paths.api_v0_equity_orders_id import delete  # noqa: E501
-from openapi_client import configuration, schemas, api_client
+import trading212_api_client
+from trading212_api_client.paths.api_v0_equity_orders_id import delete  # noqa: E501
+from trading212_api_client import configuration, schemas, api_client
 
 from .. import ApiTestMixin
 

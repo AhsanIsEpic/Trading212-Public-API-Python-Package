@@ -1,4 +1,4 @@
-# openapi_client.model.history_transaction_item.HistoryTransactionItem
+# trading212_api_client.model.history_transaction_item.HistoryTransactionItem
 
 ## Model Type Info
 Input Type | Accessed Type | Description | Notes

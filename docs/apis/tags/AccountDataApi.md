@@ -1,5 +1,5 @@
 <a id="__pageTop"></a>
-# openapi_client.apis.tags.account_data_api.AccountDataApi
+# trading212_api_client.apis.tags.account_data_api.AccountDataApi
 
 All URIs are relative to *https://demo.trading212.com*
 
@@ -18,13 +18,13 @@ Fetch account metadata
 
 * Api Key Authentication (apiKeyHeader):
 ```python
-import openapi_client
-from openapi_client.apis.tags import account_data_api
-from openapi_client.model.account import Account
+import trading212_api_client
+from trading212_api_client.apis.tags import account_data_api
+from trading212_api_client.model.account import Account
 from pprint import pprint
 # Defining the host is optional and defaults to https://demo.trading212.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = trading212_api_client.Configuration(
     host = "https://demo.trading212.com"
 )
 
@@ -39,7 +39,7 @@ configuration.api_key['apiKeyHeader'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['apiKeyHeader'] = 'Bearer'
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with trading212_api_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
     api_instance = account_data_api.AccountDataApi(api_client)
 
@@ -48,7 +48,7 @@ with openapi_client.ApiClient(configuration) as api_client:
         # Fetch account metadata
         api_response = api_instance.account()
         pprint(api_response)
-    except openapi_client.ApiException as e:
+    except trading212_api_client.ApiException as e:
         print("Exception when calling AccountDataApi->account: %s\n" % e)
 ```
 ### Parameters
@@ -122,13 +122,13 @@ Fetch account cash
 
 * Api Key Authentication (apiKeyHeader):
 ```python
-import openapi_client
-from openapi_client.apis.tags import account_data_api
-from openapi_client.model.cash import Cash
+import trading212_api_client
+from trading212_api_client.apis.tags import account_data_api
+from trading212_api_client.model.cash import Cash
 from pprint import pprint
 # Defining the host is optional and defaults to https://demo.trading212.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = trading212_api_client.Configuration(
     host = "https://demo.trading212.com"
 )
 
@@ -143,7 +143,7 @@ configuration.api_key['apiKeyHeader'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['apiKeyHeader'] = 'Bearer'
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with trading212_api_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
     api_instance = account_data_api.AccountDataApi(api_client)
 
@@ -152,7 +152,7 @@ with openapi_client.ApiClient(configuration) as api_client:
         # Fetch account cash
         api_response = api_instance.account_cash()
         pprint(api_response)
-    except openapi_client.ApiException as e:
+    except trading212_api_client.ApiException as e:
         print("Exception when calling AccountDataApi->account_cash: %s\n" % e)
 ```
 ### Parameters

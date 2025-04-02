@@ -1,0 +1,47 @@
+# coding: utf-8
+
+# flake8: noqa
+
+# import all models into this package
+# if you have many models here with many references from one model to another this may
+# raise a RecursionError
+# to avoid this, import only the models that you directly need like:
+# from trading212_api_client.model.pet import Pet
+# or import this package, but before doing it, use:
+# import sys
+# sys.setrecursionlimit(n)
+
+from trading212_api_client.model.account import Account
+from trading212_api_client.model.account_bucket_detailed_response import AccountBucketDetailedResponse
+from trading212_api_client.model.account_bucket_instrument_result import AccountBucketInstrumentResult
+from trading212_api_client.model.account_bucket_instruments_detailed_response import AccountBucketInstrumentsDetailedResponse
+from trading212_api_client.model.account_bucket_result_response import AccountBucketResultResponse
+from trading212_api_client.model.cash import Cash
+from trading212_api_client.model.dividend_details import DividendDetails
+from trading212_api_client.model.duplicate_bucket_request import DuplicateBucketRequest
+from trading212_api_client.model.enqueued_report_response import EnqueuedReportResponse
+from trading212_api_client.model.exchange import Exchange
+from trading212_api_client.model.historical_order import HistoricalOrder
+from trading212_api_client.model.history_dividend_item import HistoryDividendItem
+from trading212_api_client.model.history_transaction_item import HistoryTransactionItem
+from trading212_api_client.model.instrument_issue import InstrumentIssue
+from trading212_api_client.model.investment_result import InvestmentResult
+from trading212_api_client.model.limit_request import LimitRequest
+from trading212_api_client.model.market_request import MarketRequest
+from trading212_api_client.model.order import Order
+from trading212_api_client.model.paginated_response_historical_order import PaginatedResponseHistoricalOrder
+from trading212_api_client.model.paginated_response_history_dividend_item import PaginatedResponseHistoryDividendItem
+from trading212_api_client.model.paginated_response_history_transaction_item import PaginatedResponseHistoryTransactionItem
+from trading212_api_client.model.pie_request import PieRequest
+from trading212_api_client.model.place_order_error import PlaceOrderError
+from trading212_api_client.model.position import Position
+from trading212_api_client.model.position_request import PositionRequest
+from trading212_api_client.model.public_report_request import PublicReportRequest
+from trading212_api_client.model.report_data_included import ReportDataIncluded
+from trading212_api_client.model.report_response import ReportResponse
+from trading212_api_client.model.stop_limit_request import StopLimitRequest
+from trading212_api_client.model.stop_request import StopRequest
+from trading212_api_client.model.tax import Tax
+from trading212_api_client.model.time_event import TimeEvent
+from trading212_api_client.model.tradeable_instrument import TradeableInstrument
+from trading212_api_client.model.working_schedule import WorkingSchedule

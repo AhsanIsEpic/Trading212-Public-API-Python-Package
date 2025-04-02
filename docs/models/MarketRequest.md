@@ -1,4 +1,4 @@
-# openapi_client.model.market_request.MarketRequest
+# trading212_api_client.model.market_request.MarketRequest
 
 ## Model Type Info
 Input Type | Accessed Type | Description | Notes

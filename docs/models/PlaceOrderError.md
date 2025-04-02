@@ -1,4 +1,4 @@
-# openapi_client.model.place_order_error.PlaceOrderError
+# trading212_api_client.model.place_order_error.PlaceOrderError
 
 ## Model Type Info
 Input Type | Accessed Type | Description | Notes

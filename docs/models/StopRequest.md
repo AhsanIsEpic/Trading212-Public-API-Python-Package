@@ -1,4 +1,4 @@
-# openapi_client.model.stop_request.StopRequest
+# trading212_api_client.model.stop_request.StopRequest
 
 ## Model Type Info
 Input Type | Accessed Type | Description | Notes

@@ -1,5 +1,5 @@
 <a id="__pageTop"></a>
-# openapi_client.apis.tags.pies_api.PiesApi
+# trading212_api_client.apis.tags.pies_api.PiesApi
 
 All URIs are relative to *https://demo.trading212.com*
 
@@ -24,14 +24,14 @@ Creates a pie for the account by given params
 
 * Api Key Authentication (apiKeyHeader):
 ```python
-import openapi_client
-from openapi_client.apis.tags import pies_api
-from openapi_client.model.account_bucket_instruments_detailed_response import AccountBucketInstrumentsDetailedResponse
-from openapi_client.model.pie_request import PieRequest
+import trading212_api_client
+from trading212_api_client.apis.tags import pies_api
+from trading212_api_client.model.pie_request import PieRequest
+from trading212_api_client.model.account_bucket_instruments_detailed_response import AccountBucketInstrumentsDetailedResponse
 from pprint import pprint
 # Defining the host is optional and defaults to https://demo.trading212.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = trading212_api_client.Configuration(
     host = "https://demo.trading212.com"
 )
 
@@ -46,7 +46,7 @@ configuration.api_key['apiKeyHeader'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['apiKeyHeader'] = 'Bearer'
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with trading212_api_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
     api_instance = pies_api.PiesApi(api_client)
 
@@ -67,7 +67,7 @@ with openapi_client.ApiClient(configuration) as api_client:
             body=body,
         )
         pprint(api_response)
-    except openapi_client.ApiException as e:
+    except trading212_api_client.ApiException as e:
         print("Exception when calling PiesApi->create: %s\n" % e)
 ```
 ### Parameters
@@ -167,12 +167,12 @@ Deletes a pie by given id
 
 * Api Key Authentication (apiKeyHeader):
 ```python
-import openapi_client
-from openapi_client.apis.tags import pies_api
+import trading212_api_client
+from trading212_api_client.apis.tags import pies_api
 from pprint import pprint
 # Defining the host is optional and defaults to https://demo.trading212.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = trading212_api_client.Configuration(
     host = "https://demo.trading212.com"
 )
 
@@ -187,7 +187,7 @@ configuration.api_key['apiKeyHeader'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['apiKeyHeader'] = 'Bearer'
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with trading212_api_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
     api_instance = pies_api.PiesApi(api_client)
 
@@ -201,7 +201,7 @@ with openapi_client.ApiClient(configuration) as api_client:
             path_params=path_params,
         )
         pprint(api_response)
-    except openapi_client.ApiException as e:
+    except trading212_api_client.ApiException as e:
         print("Exception when calling PiesApi->delete: %s\n" % e)
 ```
 ### Parameters
@@ -307,14 +307,14 @@ Duplicates a pie for the account
 
 * Api Key Authentication (apiKeyHeader):
 ```python
-import openapi_client
-from openapi_client.apis.tags import pies_api
-from openapi_client.model.account_bucket_instruments_detailed_response import AccountBucketInstrumentsDetailedResponse
-from openapi_client.model.duplicate_bucket_request import DuplicateBucketRequest
+import trading212_api_client
+from trading212_api_client.apis.tags import pies_api
+from trading212_api_client.model.account_bucket_instruments_detailed_response import AccountBucketInstrumentsDetailedResponse
+from trading212_api_client.model.duplicate_bucket_request import DuplicateBucketRequest
 from pprint import pprint
 # Defining the host is optional and defaults to https://demo.trading212.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = trading212_api_client.Configuration(
     host = "https://demo.trading212.com"
 )
 
@@ -329,7 +329,7 @@ configuration.api_key['apiKeyHeader'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['apiKeyHeader'] = 'Bearer'
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with trading212_api_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
     api_instance = pies_api.PiesApi(api_client)
 
@@ -348,7 +348,7 @@ with openapi_client.ApiClient(configuration) as api_client:
             body=body,
         )
         pprint(api_response)
-    except openapi_client.ApiException as e:
+    except trading212_api_client.ApiException as e:
         print("Exception when calling PiesApi->duplicate_pie: %s\n" % e)
 ```
 ### Parameters
@@ -463,13 +463,13 @@ Fetches all pies for the account
 
 * Api Key Authentication (apiKeyHeader):
 ```python
-import openapi_client
-from openapi_client.apis.tags import pies_api
-from openapi_client.model.account_bucket_result_response import AccountBucketResultResponse
+import trading212_api_client
+from trading212_api_client.apis.tags import pies_api
+from trading212_api_client.model.account_bucket_result_response import AccountBucketResultResponse
 from pprint import pprint
 # Defining the host is optional and defaults to https://demo.trading212.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = trading212_api_client.Configuration(
     host = "https://demo.trading212.com"
 )
 
@@ -484,7 +484,7 @@ configuration.api_key['apiKeyHeader'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['apiKeyHeader'] = 'Bearer'
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with trading212_api_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
     api_instance = pies_api.PiesApi(api_client)
 
@@ -493,7 +493,7 @@ with openapi_client.ApiClient(configuration) as api_client:
         # Fetch all pies
         api_response = api_instance.get_all()
         pprint(api_response)
-    except openapi_client.ApiException as e:
+    except trading212_api_client.ApiException as e:
         print("Exception when calling PiesApi->get_all: %s\n" % e)
 ```
 ### Parameters
@@ -575,13 +575,13 @@ Fetches a pies for the account with detailed information
 
 * Api Key Authentication (apiKeyHeader):
 ```python
-import openapi_client
-from openapi_client.apis.tags import pies_api
-from openapi_client.model.account_bucket_instruments_detailed_response import AccountBucketInstrumentsDetailedResponse
+import trading212_api_client
+from trading212_api_client.apis.tags import pies_api
+from trading212_api_client.model.account_bucket_instruments_detailed_response import AccountBucketInstrumentsDetailedResponse
 from pprint import pprint
 # Defining the host is optional and defaults to https://demo.trading212.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = trading212_api_client.Configuration(
     host = "https://demo.trading212.com"
 )
 
@@ -596,7 +596,7 @@ configuration.api_key['apiKeyHeader'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['apiKeyHeader'] = 'Bearer'
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with trading212_api_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
     api_instance = pies_api.PiesApi(api_client)
 
@@ -610,7 +610,7 @@ with openapi_client.ApiClient(configuration) as api_client:
             path_params=path_params,
         )
         pprint(api_response)
-    except openapi_client.ApiException as e:
+    except trading212_api_client.ApiException as e:
         print("Exception when calling PiesApi->get_detailed: %s\n" % e)
 ```
 ### Parameters
@@ -707,14 +707,14 @@ Updates a pie for the account by given params
 
 * Api Key Authentication (apiKeyHeader):
 ```python
-import openapi_client
-from openapi_client.apis.tags import pies_api
-from openapi_client.model.account_bucket_instruments_detailed_response import AccountBucketInstrumentsDetailedResponse
-from openapi_client.model.pie_request import PieRequest
+import trading212_api_client
+from trading212_api_client.apis.tags import pies_api
+from trading212_api_client.model.pie_request import PieRequest
+from trading212_api_client.model.account_bucket_instruments_detailed_response import AccountBucketInstrumentsDetailedResponse
 from pprint import pprint
 # Defining the host is optional and defaults to https://demo.trading212.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = trading212_api_client.Configuration(
     host = "https://demo.trading212.com"
 )
 
@@ -729,7 +729,7 @@ configuration.api_key['apiKeyHeader'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['apiKeyHeader'] = 'Bearer'
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with trading212_api_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
     api_instance = pies_api.PiesApi(api_client)
 
@@ -754,7 +754,7 @@ with openapi_client.ApiClient(configuration) as api_client:
             body=body,
         )
         pprint(api_response)
-    except openapi_client.ApiException as e:
+    except trading212_api_client.ApiException as e:
         print("Exception when calling PiesApi->update: %s\n" % e)
 ```
 ### Parameters

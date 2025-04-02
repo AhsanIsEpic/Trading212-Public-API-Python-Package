@@ -1,4 +1,4 @@
-# openapi_client.model.position_request.PositionRequest
+# trading212_api_client.model.position_request.PositionRequest
 
 ## Model Type Info
 Input Type | Accessed Type | Description | Notes

@@ -1,4 +1,4 @@
-# openapi_client.model.historical_order.HistoricalOrder
+# trading212_api_client.model.historical_order.HistoricalOrder
 
 ## Model Type Info
 Input Type | Accessed Type | Description | Notes

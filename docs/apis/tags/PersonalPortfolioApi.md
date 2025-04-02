@@ -1,5 +1,5 @@
 <a id="__pageTop"></a>
-# openapi_client.apis.tags.personal_portfolio_api.PersonalPortfolioApi
+# trading212_api_client.apis.tags.personal_portfolio_api.PersonalPortfolioApi
 
 All URIs are relative to *https://demo.trading212.com*
 
@@ -21,13 +21,13 @@ Fetch an open positions for your account
 
 * Api Key Authentication (apiKeyHeader):
 ```python
-import openapi_client
-from openapi_client.apis.tags import personal_portfolio_api
-from openapi_client.model.position import Position
+import trading212_api_client
+from trading212_api_client.apis.tags import personal_portfolio_api
+from trading212_api_client.model.position import Position
 from pprint import pprint
 # Defining the host is optional and defaults to https://demo.trading212.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = trading212_api_client.Configuration(
     host = "https://demo.trading212.com"
 )
 
@@ -42,7 +42,7 @@ configuration.api_key['apiKeyHeader'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['apiKeyHeader'] = 'Bearer'
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with trading212_api_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
     api_instance = personal_portfolio_api.PersonalPortfolioApi(api_client)
 
@@ -51,7 +51,7 @@ with openapi_client.ApiClient(configuration) as api_client:
         # Fetch all open positions
         api_response = api_instance.portfolio()
         pprint(api_response)
-    except openapi_client.ApiException as e:
+    except trading212_api_client.ApiException as e:
         print("Exception when calling PersonalPortfolioApi->portfolio: %s\n" % e)
 ```
 ### Parameters
@@ -133,13 +133,13 @@ Fetch an open position by ticker
 
 * Api Key Authentication (apiKeyHeader):
 ```python
-import openapi_client
-from openapi_client.apis.tags import personal_portfolio_api
-from openapi_client.model.position import Position
+import trading212_api_client
+from trading212_api_client.apis.tags import personal_portfolio_api
+from trading212_api_client.model.position import Position
 from pprint import pprint
 # Defining the host is optional and defaults to https://demo.trading212.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = trading212_api_client.Configuration(
     host = "https://demo.trading212.com"
 )
 
@@ -154,7 +154,7 @@ configuration.api_key['apiKeyHeader'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['apiKeyHeader'] = 'Bearer'
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with trading212_api_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
     api_instance = personal_portfolio_api.PersonalPortfolioApi(api_client)
 
@@ -168,7 +168,7 @@ with openapi_client.ApiClient(configuration) as api_client:
             path_params=path_params,
         )
         pprint(api_response)
-    except openapi_client.ApiException as e:
+    except trading212_api_client.ApiException as e:
         print("Exception when calling PersonalPortfolioApi->position_by_ticker: %s\n" % e)
 ```
 ### Parameters
@@ -281,14 +281,14 @@ Search for a open position by ticker
 
 * Api Key Authentication (apiKeyHeader):
 ```python
-import openapi_client
-from openapi_client.apis.tags import personal_portfolio_api
-from openapi_client.model.position import Position
-from openapi_client.model.position_request import PositionRequest
+import trading212_api_client
+from trading212_api_client.apis.tags import personal_portfolio_api
+from trading212_api_client.model.position import Position
+from trading212_api_client.model.position_request import PositionRequest
 from pprint import pprint
 # Defining the host is optional and defaults to https://demo.trading212.com
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = trading212_api_client.Configuration(
     host = "https://demo.trading212.com"
 )
 
@@ -303,7 +303,7 @@ configuration.api_key['apiKeyHeader'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['apiKeyHeader'] = 'Bearer'
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with trading212_api_client.ApiClient(configuration) as api_client:
     # Create an instance of the API class
     api_instance = personal_portfolio_api.PersonalPortfolioApi(api_client)
 
@@ -317,7 +317,7 @@ with openapi_client.ApiClient(configuration) as api_client:
             body=body,
         )
         pprint(api_response)
-    except openapi_client.ApiException as e:
+    except trading212_api_client.ApiException as e:
         print("Exception when calling PersonalPortfolioApi->position_by_ticker_v2: %s\n" % e)
 ```
 ### Parameters

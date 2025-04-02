@@ -1,4 +1,4 @@
-# openapi_client.model.limit_request.LimitRequest
+# trading212_api_client.model.limit_request.LimitRequest
 
 ## Model Type Info
 Input Type | Accessed Type | Description | Notes

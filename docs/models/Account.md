@@ -1,4 +1,4 @@
-# openapi_client.model.account.Account
+# trading212_api_client.model.account.Account
 
 ## Model Type Info
 Input Type | Accessed Type | Description | Notes

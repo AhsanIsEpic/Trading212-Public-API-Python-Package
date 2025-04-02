@@ -1,4 +1,4 @@
-# openapi_client.model.cash.Cash
+# trading212_api_client.model.cash.Cash
 
 ## Model Type Info
 Input Type | Accessed Type | Description | Notes
