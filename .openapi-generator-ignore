@@ -26,4 +26,5 @@ tox.ini
 travis.yml
 README.md
 output\trading212_api_client\paths\__init__.py
-
+requirements.txt
+test-requirements.txt
