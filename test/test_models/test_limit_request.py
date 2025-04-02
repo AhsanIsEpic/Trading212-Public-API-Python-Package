@@ -11,9 +11,9 @@
 
 import unittest
 
-import openapi_client
-from openapi_client.model.limit_request import LimitRequest
-from openapi_client import configuration
+import trading212_api_client
+from trading212_api_client.model.limit_request import LimitRequest
+from trading212_api_client import configuration
 
 
 class TestLimitRequest(unittest.TestCase):

@@ -11,9 +11,9 @@
 
 import unittest
 
-import openapi_client
-from openapi_client.model.market_request import MarketRequest
-from openapi_client import configuration
+import trading212_api_client
+from trading212_api_client.model.market_request import MarketRequest
+from trading212_api_client import configuration
 
 
 class TestMarketRequest(unittest.TestCase):

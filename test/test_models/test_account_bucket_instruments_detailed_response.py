@@ -11,9 +11,9 @@
 
 import unittest
 
-import openapi_client
-from openapi_client.model.account_bucket_instruments_detailed_response import AccountBucketInstrumentsDetailedResponse
-from openapi_client import configuration
+import trading212_api_client
+from trading212_api_client.model.account_bucket_instruments_detailed_response import AccountBucketInstrumentsDetailedResponse
+from trading212_api_client import configuration
 
 
 class TestAccountBucketInstrumentsDetailedResponse(unittest.TestCase):

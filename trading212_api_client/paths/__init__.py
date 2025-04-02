@@ -21,7 +21,7 @@ class PathValues(str, enum.Enum):
     API_V0_EQUITY_PIES_ID = "/api/v0/equity/pies/{id}"
     API_V0_EQUITY_PIES_ID_DUPLICATE = "/api/v0/equity/pies/{id}/duplicate"
     API_V0_EQUITY_PORTFOLIO = "/api/v0/equity/portfolio"
-    API_V0_EQUITY_PORTFOLIO_TICKER = "/api/v0/equity/portfolio/ticker"
+    # API_V0_EQUITY_PORTFOLIO_TICKER = "/api/v0/equity/portfolio/ticker"
     API_V0_EQUITY_PORTFOLIO_TICKER = "/api/v0/equity/portfolio/{ticker}"
     API_V0_HISTORY_DIVIDENDS = "/api/v0/history/dividends"
     API_V0_HISTORY_EXPORTS = "/api/v0/history/exports"

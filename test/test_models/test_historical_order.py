@@ -11,9 +11,9 @@
 
 import unittest
 
-import openapi_client
-from openapi_client.model.historical_order import HistoricalOrder
-from openapi_client import configuration
+import trading212_api_client
+from trading212_api_client.model.historical_order import HistoricalOrder
+from trading212_api_client import configuration
 
 
 class TestHistoricalOrder(unittest.TestCase):

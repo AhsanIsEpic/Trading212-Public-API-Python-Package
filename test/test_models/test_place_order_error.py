@@ -11,9 +11,9 @@
 
 import unittest
 
-import openapi_client
-from openapi_client.model.place_order_error import PlaceOrderError
-from openapi_client import configuration
+import trading212_api_client
+from trading212_api_client.model.place_order_error import PlaceOrderError
+from trading212_api_client import configuration
 
 
 class TestPlaceOrderError(unittest.TestCase):

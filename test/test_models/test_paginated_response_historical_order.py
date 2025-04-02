@@ -11,9 +11,9 @@
 
 import unittest
 
-import openapi_client
-from openapi_client.model.paginated_response_historical_order import PaginatedResponseHistoricalOrder
-from openapi_client import configuration
+import trading212_api_client
+from trading212_api_client.model.paginated_response_historical_order import PaginatedResponseHistoricalOrder
+from trading212_api_client import configuration
 
 
 class TestPaginatedResponseHistoricalOrder(unittest.TestCase):

@@ -11,9 +11,9 @@
 
 import unittest
 
-import openapi_client
-from openapi_client.model.investment_result import InvestmentResult
-from openapi_client import configuration
+import trading212_api_client
+from trading212_api_client.model.investment_result import InvestmentResult
+from trading212_api_client import configuration
 
 
 class TestInvestmentResult(unittest.TestCase):

@@ -11,9 +11,9 @@
 
 import unittest
 
-import openapi_client
-from openapi_client.model.paginated_response_history_dividend_item import PaginatedResponseHistoryDividendItem
-from openapi_client import configuration
+import trading212_api_client
+from trading212_api_client.model.paginated_response_history_dividend_item import PaginatedResponseHistoryDividendItem
+from trading212_api_client import configuration
 
 
 class TestPaginatedResponseHistoryDividendItem(unittest.TestCase):

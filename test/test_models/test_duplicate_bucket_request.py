@@ -11,9 +11,9 @@
 
 import unittest
 
-import openapi_client
-from openapi_client.model.duplicate_bucket_request import DuplicateBucketRequest
-from openapi_client import configuration
+import trading212_api_client
+from trading212_api_client.model.duplicate_bucket_request import DuplicateBucketRequest
+from trading212_api_client import configuration
 
 
 class TestDuplicateBucketRequest(unittest.TestCase):

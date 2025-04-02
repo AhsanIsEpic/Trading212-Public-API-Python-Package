@@ -11,9 +11,9 @@
 
 import unittest
 
-import openapi_client
-from openapi_client.model.time_event import TimeEvent
-from openapi_client import configuration
+import trading212_api_client
+from trading212_api_client.model.time_event import TimeEvent
+from trading212_api_client import configuration
 
 
 class TestTimeEvent(unittest.TestCase):

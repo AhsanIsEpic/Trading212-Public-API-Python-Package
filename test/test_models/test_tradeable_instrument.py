@@ -11,9 +11,9 @@
 
 import unittest
 
-import openapi_client
-from openapi_client.model.tradeable_instrument import TradeableInstrument
-from openapi_client import configuration
+import trading212_api_client
+from trading212_api_client.model.tradeable_instrument import TradeableInstrument
+from trading212_api_client import configuration
 
 
 class TestTradeableInstrument(unittest.TestCase):
